@@ -5,7 +5,6 @@ import { Pagination, PaginationContent, PaginationItem, PaginationLink, Paginati
 import { getProducts } from "@/sanity/lib/sanity";
 
 const ShopPage = async () => {
-  // Fetch all products from Sanity
   const products = await getProducts();
 
   // For simplicity, split the products into new arrivals, top selling, and related products
